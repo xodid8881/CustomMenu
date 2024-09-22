@@ -1,16 +1,12 @@
 package org.hwabeag.custommenu.inventorys;
 
 import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
-import org.bukkit.Material;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Listener;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.ItemMeta;
 import org.hwabeag.custommenu.config.ConfigManager;
-import org.jetbrains.annotations.Nullable;
 
 public class CustomMenuItemSettingGUI implements Listener {
     private final Inventory inv;

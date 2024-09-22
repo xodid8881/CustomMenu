@@ -11,5 +11,3 @@ commands:
   커스텀메뉴:
     description: 커스텀메뉴를 관리합니다.
     usage: /커스텀메뉴
-
-depend: [ItemsAdder]
