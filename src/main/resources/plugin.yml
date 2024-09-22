@@ -1,0 +1,15 @@
+name: CustomMenu
+version: '${version}'
+main: org.hwabeag.custommenu.CustomMenu
+api-version: '1.20'
+
+commands:
+  메뉴:
+    description: 메뉴를 오픈합니다.
+    usage: /메뉴
+    aliases: [ㅁㄴ]
+  커스텀메뉴:
+    description: 커스텀메뉴를 관리합니다.
+    usage: /커스텀메뉴
+
+depend: [ItemsAdder]
